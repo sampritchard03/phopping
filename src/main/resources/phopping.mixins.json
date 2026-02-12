@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "slaals.phopping.mixin",
+  "compatibilityLevel": "JAVA_${java}",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "PlayerMixin"
+  ],
+  "client": [
+    "PlayerLocalMixin"
+  ]
+}

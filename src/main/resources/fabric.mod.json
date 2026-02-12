@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "examplemod",
+	"id": "phopping",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This mod aims to help new BTA modders.",
+	"name": "P-Hopping",
+	"description": "Fun movement in retro land.",
 	"authors": [
-		"Turnip Labs"
+		"Slaals"
 	],
 	"contact": {
 		"homepage": "",
@@ -16,20 +16,20 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"turniplabs.examplemod.ExampleMod"
+          "slaals.phopping.PHopping"
 		],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "slaals.phopping.PHopping"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "slaals.phopping.PHopping"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+          "slaals.phopping.PHopping"
 		]
 	},
 	"mixins": [
-		"examplemod.mixins.json"
+		"phopping.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
